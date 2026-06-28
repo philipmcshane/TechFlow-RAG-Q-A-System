@@ -3,7 +3,6 @@
 These are pure Python tests.
 """
 
-import pytest
 from langchain_core.documents import Document
 from ingest import _section_documents
 

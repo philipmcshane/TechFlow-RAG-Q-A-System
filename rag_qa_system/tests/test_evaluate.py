@@ -4,7 +4,6 @@ The LLM is mocked so no API calls or ChromaDB access are needed.
 """
 
 from unittest.mock import MagicMock
-import pytest
 from evaluate import judge_answer, TEST_CASES
 
 
