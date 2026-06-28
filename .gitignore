@@ -1,1 +1,15 @@
 .claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# ChromaDB vector store (rebuilt by running ingest.py)
+rag_qa_system/chroma_db/
+
+# Generated output
+rag_qa_system/evaluation_report.txt
