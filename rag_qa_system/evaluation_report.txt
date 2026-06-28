@@ -1,0 +1,108 @@
+TechFlow RAG Evaluation Report
+============================================================
+
+Q01: What pricing plans does TechFlow offer?
+Expected: Three plans: Free ($0), Pro ($12/user/month), and Enterprise (custom pricing).
+Answer:   TechFlow offers three pricing tiers: 
+
+1. **Free Plan** — $0/month, with up to 3 projects, 5 team members, 1 GB total file storage, and basic task management.
+2. **Pro Plan** — $12/user/month (billed annually) or $15/user/month (billed monthly), with unlimited projects, team members, 5 GB file storage per user, and advanced features.
+3. **Enterprise plan** (details not specified in the provided context, but mentioned as an option).
+Verdict:  CORRECT -- The system's answer accurately provides the three pricing plans with their respective details, matching the expected behavior.
+
+Q02: How many projects can I create on the Free plan?
+Expected: Up to 3 projects on the Free plan.
+Answer:   On the Free plan, you can create up to **3 projects**. Each project can have up to 5 team members and uses shared storage from your 1 GB team allocation.
+Verdict:  CORRECT -- The system's answer correctly states the key fact that the Free plan allows up to 3 projects.
+
+Q03: What payment methods does TechFlow accept?
+Expected: Credit cards (Visa, Mastercard, Amex, Discover), PayPal, and bank transfer for Enterprise.
+Answer:   TechFlow accepts the following payment methods:
+
+1. **Credit cards**: Visa, Mastercard, American Express, and Discover
+2. **PayPal**: You can link your PayPal account for automatic billing
+3. **Bank transfer (ACH/wire)**: Available exclusively for Enterprise plan customers
+
+All transactions are processed securely through Stripe.
+Verdict:  CORRECT -- The system's answer accurately lists the accepted payment methods, including the specific credit cards and the exclusivity of bank transfer to Enterprise plan customers.
+
+Q04: How do I reset my password?
+Expected: Click 'Forgot Password?' on the login page, enter your email, check for a reset link (expires in 24 hours), and set a new password.
+Answer:   To reset your password, follow these steps:
+
+1. Go to the TechFlow login page at **app.techflow.io**
+2. Click **"Forgot Password?"** below the login form
+3. Enter the email address associated with your account and click **"Send Reset Link"**
+4. Check your inbox for the password reset email (it may take up to 5 minutes to arrive)
+5. Click the reset link in the email (the link expires after **24 hours**)
+6. Enter your new password and confirm it
+7. Click **"Reset Password"** — you will be automatically logged in
+
+Alternatively, if you are already logged in, you can change your password via **Account Settings → Security → Change Password**.
+Verdict:  CORRECT -- The system's answer provides all the necessary steps to reset a password, including the expiration time of the reset link, and also offers an alternative method for changing the password while logged in.
+
+Q05: How do I invite team members to a project?
+Expected: Open the project, go to Settings > Members, click 'Invite Members', enter email addresses, choose a permission level, and send the invitation.
+Answer:   To invite team members to a TechFlow project, follow these steps:
+
+1. Open the project you want to share
+2. Click **"Settings"** in the left sidebar
+3. Navigate to the **"Members"** tab
+4. Click **"Invite Members"**
+5. Enter one or more email addresses (comma-separated to add multiple at once)
+6. Choose a permission level: **Viewer**, **Editor**, or **Admin**
+7. Click **"Send Invitation"**
+
+Each invitee will receive an email invitation with a join link. If they don't have a TechFlow account, they'll be prompted to create one. Invitations expire after 7 days, but can be resent from the Members tab.
+Verdict:  CORRECT -- The system's answer matches the expected behaviour and provides all the necessary steps to invite team members to a project.
+
+Q06: Does TechFlow integrate with Slack?
+Expected: Yes, TechFlow has a native Slack integration for real-time notifications, creating tasks from Slack, and daily digests.
+Answer:   Yes, TechFlow has a native Slack integration. To set it up, go to **Settings → Integrations**, click **"Connect Slack"**, authorize TechFlow in your Slack workspace, and choose which projects and events to sync. This integration allows your team to receive real-time notifications, create new tasks, and more, directly within Slack.
+Verdict:  CORRECT -- The system's answer correctly handles the question by confirming the integration and providing setup instructions and details about its functionality.
+
+Q07: Does TechFlow have a mobile app?
+Expected: Yes, available on iOS (App Store) and Android (Google Play).
+Answer:   Yes, TechFlow is available on both major mobile platforms. The mobile app supports all core features, including task creation and management, comments and @mentions, file attachments, push notifications, and Kanban board views. However, some advanced features, such as complex reporting dashboards and Gantt chart exports, are currently only available on the web app.
+Verdict:  CORRECT -- The system's answer correctly confirms the availability of a mobile app on both major platforms, although it provides additional information about the app's features.
+
+Q08: What is the maximum file upload size in TechFlow?
+Expected: 25 MB per file.
+Answer:   The maximum file upload size in TechFlow is **25 MB per file**. If you need to upload larger files, you will need to compress or split them before uploading.
+Verdict:  CORRECT -- The system's answer correctly states the maximum file upload size and provides additional helpful information.
+
+Q09: How can I export my TechFlow project data?
+Expected: Export in CSV, PDF, or JSON format from the project's More Options menu.
+Answer:   To export your TechFlow project data, follow these steps:
+
+1. Open the project
+2. Click the **"···" (More Options)** menu in the top-right corner
+3. Select **"Export Project"**
+4. Choose your desired format: **CSV**, **PDF**, or **JSON**
+5. Click **"Download"**
+
+This will allow you to export your project data in the selected format. If you need to export all of your account data, you can also request a **full account data export** from **Account Settings → Data & Privacy → Export All Data**.
+Verdict:  CORRECT -- The system's answer correctly provides the steps to export TechFlow project data in the desired formats.
+
+Q10: What is TechFlow's uptime guarantee?
+Expected: 99.9% uptime as per the SLA, equivalent to less than 8 hours 45 minutes of downtime per year.
+Answer:   TechFlow guarantees **99.9% uptime**, which translates to no more than 8 hours and 45 minutes of unplanned downtime per year, as defined in their Service Level Agreement (SLA).
+Verdict:  CORRECT -- The system's answer accurately includes the 99.9% uptime guarantee and the equivalent downtime per year as per the SLA.
+
+Q11: What is TechFlow's stock ticker symbol?
+Expected: The system should acknowledge this is not in the FAQ and suggest contacting support. It must NOT fabricate a stock ticker.
+Answer:   The provided context does not mention TechFlow's stock ticker symbol. For more information, I suggest contacting support@techflow.io.
+Verdict:  CORRECT -- The system correctly declines to provide a stock ticker symbol and suggests contacting support instead.
+
+Q12: How do I bake a chocolate cake?
+Expected: The system should recognise this as off-topic and politely decline, redirecting the user to TechFlow-related questions.
+Answer:   That question is not related to TechFlow. For assistance with TechFlow, I can help with topics such as downloading the app, account management, or exporting projects. If you have a question about TechFlow, I'd be happy to try and help. Otherwise, for baking a chocolate cake, I suggest searching for a recipe online or contacting a cooking support resource. If you do have a TechFlow-related question, feel free to ask, or you can contact support@techflow.io for further assistance.
+Verdict:  CORRECT -- The system correctly recognises the question as off-topic and politely declines, redirecting the user to TechFlow-related questions while providing alternative resources for the user's query.
+
+Q13: How much does it cost?
+Expected: Because no plan is specified, the system should explain all three pricing tiers: Free ($0), Pro ($12/user/month), and Enterprise (custom pricing).
+Answer:   The cost of TechFlow depends on the plan you choose. We have a Free plan which is $0/month, a Pro plan which is $12/user/month (billed annually) or $15/user/month (billed monthly), and an Enterprise plan with custom pricing. If you need more information on the Enterprise plan, I suggest contacting sales.
+Verdict:  CORRECT -- The system's answer provides all the necessary pricing information for the three tiers and redirects to sales for custom pricing details.
+
+Accuracy: 100.0%
+Correct: 13 | Partial: 0 | Incorrect: 0
